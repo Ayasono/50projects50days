@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    background-color: #000000;
+}
+
+.container > * {
+    width: 400px;
+    height: 400px;
+    background-color: #50d0d0;
+    border: 1px dashed #4c2885;
+}
+
+.container :last-child {
+    margin-left: auto;
+}

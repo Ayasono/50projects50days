@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+@media screen and (min-width: 1280px) {
+    .container {
+        width: 1280px;
+        background-color: lightblue;
+    }
+}
+
+/* article */
+.article .left {
+    width: 50%;
+}
+
+.article .left > a {
+    width: 100%;
+}
+
+.article .right {
+    width: 50%;
+}
+
+.article .right > a {
+    width: 100%;
+}
+
+.article .news-bar {
+    display: flex;
+}
+
+.article .news-bar .left img {
+    width: 100%;
+}
+
+.article .news-bar .right img {
+    width: 100%;
+}
+
+.article .news-bar .right {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.article .news-bar .right > a {
+    width: 49%;
+}
