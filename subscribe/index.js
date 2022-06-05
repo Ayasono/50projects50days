@@ -47,5 +47,3 @@ subscriber2.subscribe(publisher)
 
 // publisher push message to channel
 publisher.pushMsg( `${publisher.name} just posted a new video`)
-
-// test
